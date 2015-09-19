@@ -1,0 +1,123 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "description": "BroadbandDisclosureLabel is Broadband Truth-in-Labeling disclosure data.",
+    "title": "BroadbandDisclosureLabel",
+    "id":"https://github.com/elationfoundation/Broadband-Disclosure-Label-Data-Schema.git",
+    "properties": {
+        "providerName": {
+            "description":"The name of the provider",
+            "type": "string"
+        },
+        "providerDoingBusinessAs": {
+            "description":"The Doing Business As name for the provider",
+            "type":"string"
+        },
+        "providerFrn": {
+            "description":"The FCC Registration Number assigned to the wireless provider_  For identification purposes, the FCC assigns a unique FRN to each broadband provider",
+            "type":"string"
+        },
+        "providerHoldingCompanyNumber": {
+            "description":"The Holding Company Number assigned to the broadband provider_  For identification purposes, the FCC assigns a unique number to each Holding Company",
+            "type":"string"
+        },
+        "providerHoldingCompanyName": {
+            "description":"The Holding Company Name of the wireline provider",
+            "type":"string"
+        },
+        "providerURL": {
+            "description":"The website URL of the wireline provider",
+            "type":"string"
+        },
+        "monthlyDataAllowance":{
+            "description":"",
+            "type":""
+        },
+        "overageCharges":{
+            "description":"",
+            "type":""
+        },
+        "recurringFees":{
+            "description":"",
+            "type":""
+        },
+        "contractTerms":{
+            "description":"",
+            "type":""
+        },
+        "compatibleDeviceRequired":{
+            "description":"",
+            "type":""
+        },
+        "activationFee":{
+            "description":"",
+            "type":""
+        },
+        "deposits":{
+            "description":"",
+            "type":""
+        },
+        "earlyTerminationFee":{
+            "description":"",
+            "type":""
+        },
+        "cancellationFee":{
+            "description":"",
+            "type":""
+        },
+        "subscriberAgreement":{
+            "description":"",
+            "type":""
+        },
+        "promotionalDiscount":{
+            "description":"Any promotional discount, including the term of
+that discount",
+            "type":""
+        },
+        "disconnectFee":{
+            "description":"",
+            "type":""
+        },
+        "maximumUploadSpeed":{
+            "description":"The maximum of maximum advertised upload speed quality assessment score at a given geography",
+            "type":""
+        },
+        "maximumDownloadSpeed":{
+            "description":"The maximum of maximum advertised download speed quality assessment score at a given geography",
+            "type":""
+        },
+        "latency":{
+            "description":"",
+            "type":""
+        },
+        "speedDisclaimer":{
+            "description":"",
+            "type":""
+        },
+        "applicationSpecificNetworkMgntPractice":{
+            "description":"",
+            "type":""
+        },
+        "subscriberTriggeredNetworkMgntPractive":{
+            "description":"",
+            "type":""
+        },
+        "BYOD":{
+            "description":"",
+            "type":""
+        },
+        "accepableUsePolicy":{
+            "description":"",
+            "type":""
+        },
+        "privacyPolcy":{
+            "description":"",
+            "type":""
+        },
+        "redressOptions":{
+            "description":"",
+            "type":""
+        }
+    }
+    "required": ["providerName", "recurringFees"]
+}
